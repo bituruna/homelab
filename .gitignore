@@ -1,0 +1,24 @@
+# === Segredos: NUNCA versionar ===
+*.key
+*.pem
+*.p12
+*.kdbx
+id_rsa*
+id_ed25519*
+.env
+.env.*
+secrets/
+*.secret
+
+# === Dados e backups (podem conter informação sensível) ===
+backups/
+dumps/
+*.dump
+*.sql.gz
+*.tar.zst
+
+# === Lixo de editores e do sistema ===
+*~
+*.swp
+.vscode/
+.idea/
