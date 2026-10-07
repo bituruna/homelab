@@ -5,3 +5,4 @@ Formato baseado em Keep a Changelog; versões seguem SemVer.
 ## [Unreleased]
 ### Added
 - Estrutura inicial do repositório, README, .gitignore e CHANGELOG.
+- Adicionado arquivo com licença MIT.
