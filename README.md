@@ -33,3 +33,14 @@ dados, monitoramento e segurança defensiva, operando serviços reais em hardwar
 
 ## Licença
 Scripts: MIT · Documentação: CC BY 4.0
+## Hook de segurança: pre-commit
+
+O repositório possui um hook que verifica as alterações preparadas
+para o commit e bloqueia cabeçalhos conhecidos de chaves privadas.
+
+### Ativação
+
+Após clonar o repositório, execute:
+
+```bash
+git config core.hooksPath .githooks
